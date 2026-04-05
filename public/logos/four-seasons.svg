@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 130" fill="#1a1614">
+  <!-- Tree trunk -->
+  <g transform="translate(90, 5)">
+    <line x1="0" y1="8" x2="0" y2="68" stroke="#1a1614" stroke-width="2"/>
+    <!-- Main branches - bottom pair -->
+    <line x1="0" y1="60" x2="-22" y2="42" stroke="#1a1614" stroke-width="1.3"/>
+    <line x1="0" y1="60" x2="22" y2="42" stroke="#1a1614" stroke-width="1.3"/>
+    <!-- Sub-branches bottom -->
+    <line x1="-14" y1="49" x2="-24" y2="40" stroke="#1a1614" stroke-width="0.8"/>
+    <line x1="14" y1="49" x2="24" y2="40" stroke="#1a1614" stroke-width="0.8"/>
+    <!-- Second pair -->
+    <line x1="0" y1="50" x2="-18" y2="34" stroke="#1a1614" stroke-width="1.3"/>
+    <line x1="0" y1="50" x2="18" y2="34" stroke="#1a1614" stroke-width="1.3"/>
+    <!-- Third pair -->
+    <line x1="0" y1="40" x2="-14" y2="26" stroke="#1a1614" stroke-width="1.2"/>
+    <line x1="0" y1="40" x2="14" y2="26" stroke="#1a1614" stroke-width="1.2"/>
+    <!-- Fourth pair -->
+    <line x1="0" y1="31" x2="-10" y2="19" stroke="#1a1614" stroke-width="1.1"/>
+    <line x1="0" y1="31" x2="10" y2="19" stroke="#1a1614" stroke-width="1.1"/>
+    <!-- Fifth pair -->
+    <line x1="0" y1="23" x2="-7" y2="14" stroke="#1a1614" stroke-width="1"/>
+    <line x1="0" y1="23" x2="7" y2="14" stroke="#1a1614" stroke-width="1"/>
+    <!-- Top -->
+    <line x1="0" y1="16" x2="-4" y2="10" stroke="#1a1614" stroke-width="0.9"/>
+    <line x1="0" y1="16" x2="4" y2="10" stroke="#1a1614" stroke-width="0.9"/>
+    <!-- Leaf dots -->
+    <circle cx="-24" cy="39" r="1.5"/>
+    <circle cx="24" cy="39" r="1.5"/>
+    <circle cx="-22" cy="41" r="1.3"/>
+    <circle cx="22" cy="41" r="1.3"/>
+    <circle cx="-18" cy="33" r="1.3"/>
+    <circle cx="18" cy="33" r="1.3"/>
+    <circle cx="-14" cy="25" r="1.3"/>
+    <circle cx="14" cy="25" r="1.3"/>
+    <circle cx="-10" cy="18" r="1.2"/>
+    <circle cx="10" cy="18" r="1.2"/>
+    <circle cx="-7" cy="13" r="1.1"/>
+    <circle cx="7" cy="13" r="1.1"/>
+    <circle cx="-4" cy="9" r="1"/>
+    <circle cx="4" cy="9" r="1"/>
+    <circle cx="0" cy="6" r="1.3"/>
+  </g>
+  <!-- Base/root -->
+  <line x1="82" y1="73" x2="98" y2="73" stroke="#1a1614" stroke-width="1.5"/>
+  <!-- Text - matching the serif style from the logo -->
+  <text x="90" y="95" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" letter-spacing="1.5" font-variant="small-caps" font-weight="400">Four Seasons</text>
+  <text x="90" y="112" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="8" letter-spacing="4" font-weight="400">PREFERRED PARTNER</text>
+</svg>
