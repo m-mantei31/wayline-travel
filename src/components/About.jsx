@@ -17,29 +17,31 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             className="lg:col-span-5"
-            style={{ perspective: 800 }}
           >
             <motion.div
-              className="relative"
-              style={{ rotateX, rotateY }}
-              onMouseMove={(e) => {
-                const rect = e.currentTarget.getBoundingClientRect()
-                x.set(e.clientX - rect.left - rect.width / 2)
-                y.set(e.clientY - rect.top - rect.height / 2)
-              }}
-              onMouseLeave={() => {
-                x.set(0)
-                y.set(0)
-              }}
+              className="relative hidden lg:block"
+              style={{ perspective: 800 }}
             >
-              {/* Placeholder portrait - replace src with your actual photo */}
-              <div className="relative">
-                <img
-                  src="/Garrett.jpg"
-                  alt="Garrett - Wayline Travel advisor"
-                  className="w-full aspect-[3/4] object-cover object-top"
-                  loading="lazy"
-                />
+              <motion.div
+                className="relative"
+                style={{ rotateX, rotateY }}
+                onMouseMove={(e) => {
+                  const rect = e.currentTarget.getBoundingClientRect()
+                  x.set(e.clientX - rect.left - rect.width / 2)
+                  y.set(e.clientY - rect.top - rect.height / 2)
+                }}
+                onMouseLeave={() => {
+                  x.set(0)
+                  y.set(0)
+                }}
+              >
+                <div className="relative">
+                  <img
+                    src="/Garrett.jpg"
+                    alt="Garrett - Wayline Travel advisor"
+                    className="w-full aspect-[3/4] object-cover object-top"
+                    loading="lazy"
+                  />
                 {/* Decorative frame accent */}
                 <div className="absolute -bottom-4 -right-4 w-full h-full border border-gold/20 -z-10 hidden lg:block" />
               </div>
@@ -69,7 +71,17 @@ export default function About() {
                   Travel Specialist
                 </p>
               </motion.div>
+              </motion.div>
             </motion.div>
+            {/* Mobile photo - simple, no 3D tilt */}
+            <div className="relative lg:hidden">
+              <img
+                src="/Garrett.jpg"
+                alt="Garrett - Wayline Travel advisor"
+                className="w-full max-w-sm mx-auto aspect-[3/4] object-cover object-top rounded-sm"
+                loading="lazy"
+              />
+            </div>
           </motion.div>
 
           {/* Content */}
