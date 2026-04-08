@@ -6,6 +6,7 @@ import Specialties from './components/Specialties'
 import Process from './components/Process'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
+import Newsletter from './components/Newsletter'
 import FinalCTA from './components/FinalCTA'
 import Footer from './components/Footer'
 
@@ -21,6 +22,7 @@ export default function App() {
         <Process />
         <Testimonials />
         <About />
+        <Newsletter />
         <FinalCTA />
       </main>
       <Footer />

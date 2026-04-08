@@ -5,6 +5,7 @@ const specialties = [
   'Luxury',
   'Boutique',
   'Adventures',
+  'Cruises',
   'Romance',
   'Culture',
   'Wellness',
