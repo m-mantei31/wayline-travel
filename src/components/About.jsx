@@ -18,7 +18,7 @@ const BioContent = () => (
         Travel has always been more than a hobby for me. It is a calling. As a lifelong explorer with a deep appreciation for the world's hidden treasures, I founded Wayline Travel to share that passion with travelers who seek experiences beyond the expected.
       </p>
       <p>
-        Based in Phoenix and serving clients worldwide, I bring a refined blend of global travel insight, thoughtful attention to detail, and genuine warmth to every journey I design. As a FORA Travel advisor, I provide access to an exclusive network of luxury properties, preferred partnerships, and insider VIP perks not available to the general public.
+        Based in the greater Phoenix area and serving clients worldwide, I bring a refined blend of global travel insight, thoughtful attention to detail, and genuine warmth to every journey I design. As a FORA Travel advisor, I provide access to an exclusive network of luxury properties, preferred partnerships, and insider VIP perks not available to the general public.
       </p>
       <p>
         I believe travel is for everyone. I'm proud to specialize in Luxury and LGBTQ+ travel, ensuring every trip is planned with inclusivity, comfort, and celebration in mind. Whether you're traveling as a family, a couple, a group of friends, or on your own, your journey is always designed around you.
