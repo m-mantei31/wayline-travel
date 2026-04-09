@@ -8,11 +8,12 @@ export default function Newsletter() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!email) return
-    // TODO: wire up to a real provider (Mailchimp, ConvertKit, Buttondown, Formspree).
-    // For now, hand off to your inbox so no signup is missed.
-    window.location.href = `mailto:info@waylinetravel.com?subject=Newsletter%20Signup&body=Please%20add%20me%20to%20the%20Wayline%20Travel%20newsletter.%0A%0AEmail:%20${encodeURIComponent(
+    // Hand off to Beehiiv's hosted subscribe page with the email pre-filled.
+    // Beehiiv handles confirmation, welcome email, and unsubscribe management.
+    const url = `https://theguidedcompass.beehiiv.com/subscribe?email=${encodeURIComponent(
       email
     )}`
+    window.open(url, '_blank', 'noopener,noreferrer')
     setSubmitted(true)
   }
 
