@@ -47,7 +47,7 @@ export default function Specialties() {
         >
           {specialties.map((item, i) => (
             <span key={item} className="flex items-center gap-x-5">
-              <span className="italic">{item}</span>
+              <span className={item === 'LGBTQ+' ? '' : 'italic'}>{item}</span>
               {i < specialties.length - 1 && (
                 <span className="text-gold/60 font-sans font-light">|</span>
               )}
