@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 const specialties = [
   'Getaways',
   'Luxury',
+  'LGBTQ+',
   'Boutique',
   'Adventures',
   'Cruises',
