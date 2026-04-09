@@ -1,15 +1,11 @@
 import { motion } from 'framer-motion'
 
 const specialties = [
-  'Getaways',
   'Luxury',
   'LGBTQ+',
-  'Boutique',
+  'Romance',
   'Adventures',
   'Cruises',
-  'Romance',
-  'Culture',
-  'Wellness',
   'Family',
   'Solo',
   'Groups',
