@@ -1,15 +1,30 @@
 import { motion } from 'framer-motion'
 
-const specialties = [
-  'Luxury',
-  'LGBTQ+',
-  'Romance',
-  'Adventures',
-  'Cruises',
-  'Family',
-  'Solo',
-  'Groups',
-]
+const rowOne = ['Luxury', 'LGBTQ+', 'Romance', 'Adventures', 'Cruises']
+const rowTwo = ['Family', 'Solo', 'Groups']
+
+function Row({ items }) {
+  return (
+    <div className="flex flex-nowrap items-center justify-center gap-x-2 sm:gap-x-3 lg:gap-x-5 font-serif text-sm sm:text-base md:text-lg lg:text-2xl xl:text-3xl text-clay whitespace-nowrap">
+      {items.map((item, i) => (
+        <span key={item} className="flex items-center gap-x-2 sm:gap-x-3 lg:gap-x-5">
+          {item === 'LGBTQ+' ? (
+            <span>
+              <span className="italic">LGBT</span>
+              <span>Q</span>
+              <span className="italic">+</span>
+            </span>
+          ) : (
+            <span className="italic">{item}</span>
+          )}
+          {i < items.length - 1 && (
+            <span className="text-gold/60 font-sans font-light">|</span>
+          )}
+        </span>
+      ))}
+    </div>
+  )
+}
 
 export default function Specialties() {
   return (
@@ -39,24 +54,10 @@ export default function Specialties() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 font-serif text-xl md:text-2xl lg:text-3xl text-clay"
+          className="flex flex-col gap-y-3"
         >
-          {specialties.map((item, i) => (
-            <span key={item} className="flex items-center gap-x-5">
-              {item === 'LGBTQ+' ? (
-                <span>
-                  <span className="italic">LGBT</span>
-                  <span>Q</span>
-                  <span className="italic">+</span>
-                </span>
-              ) : (
-                <span className="italic">{item}</span>
-              )}
-              {i < specialties.length - 1 && (
-                <span className="text-gold/60 font-sans font-light">|</span>
-              )}
-            </span>
-          ))}
+          <Row items={rowOne} />
+          <Row items={rowTwo} />
         </motion.div>
 
         <motion.div
