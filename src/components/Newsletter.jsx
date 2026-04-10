@@ -45,9 +45,9 @@ export default function Newsletter() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-clay text-lg font-light leading-relaxed mb-10 max-w-xl mx-auto"
         >
-          Quietly curated specials, timely advisories, and the news worth
-          knowing before you book. No noise, just the good stuff. Unsubscribe
-          anytime.
+          A newsletter of quietly curated specials, timely advisories, and
+          the news worth knowing before you book. No noise, just the good
+          stuff. Unsubscribe anytime.
         </motion.p>
 
         {submitted ? (
