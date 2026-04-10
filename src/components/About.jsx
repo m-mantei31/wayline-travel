@@ -75,11 +75,27 @@ export default function About() {
       {/* ===== MOBILE LAYOUT (no animations) ===== */}
       <div className="lg:hidden max-w-7xl mx-auto px-6">
         <div className="mb-10">
-          <img
-            src="/Garrett.jpg"
-            alt="Garrett - Wayline Travel advisor"
-            className="w-full max-w-xs mx-auto aspect-[3/4] object-cover object-top rounded-sm"
-          />
+          <div className="relative max-w-xs mx-auto">
+            <img
+              src="/Garrett.jpg"
+              alt="Garrett - Wayline Travel advisor"
+              className="w-full aspect-[3/4] object-cover object-top rounded-sm"
+            />
+            <div className="absolute -bottom-4 -left-3 bg-espresso text-white p-4">
+              <p className="font-serif text-xl text-gold">FORA</p>
+              <p className="text-[9px] tracking-[0.2em] uppercase text-white/60 mt-0.5">
+                Travel Advisor
+              </p>
+            </div>
+            <div className="absolute -bottom-4 -right-3 bg-white text-espresso p-3 shadow-sm border border-sand">
+              <p className="text-[9px] tracking-[0.2em] uppercase text-clay font-medium">
+                LGBTQ+
+              </p>
+              <p className="text-[8px] tracking-[0.15em] uppercase text-stone mt-0.5">
+                Travel Specialist
+              </p>
+            </div>
+          </div>
         </div>
         <BioContent />
         <LogoMarquee />
