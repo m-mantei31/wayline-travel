@@ -36,7 +36,7 @@ export default function Newsletter() {
           transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className="font-serif text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.15] mb-5"
         >
-          Your weekly Wayline for the journey ahead
+          Your Wayline for the journey ahead
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -45,9 +45,9 @@ export default function Newsletter() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-clay text-lg font-light leading-relaxed mb-10 max-w-xl mx-auto"
         >
-          A weekly newsletter of quietly curated specials, timely advisories,
-          and the news worth knowing before you book. No noise, just the good
-          stuff. Unsubscribe anytime.
+          Quietly curated specials, timely advisories, and the news worth
+          knowing before you book. No noise, just the good stuff. Unsubscribe
+          anytime.
         </motion.p>
 
         {submitted ? (
