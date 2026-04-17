@@ -9,7 +9,7 @@ export default function Footer() {
               <img src="/wayline-logo.jpg" alt="Wayline Travel" className="h-12 w-12 rounded-lg object-cover" />
               <div>
                 <p className="font-serif text-2xl text-white tracking-wide mb-1">
-                  Wayline Travel
+                  Wayline Travel<sup className="text-xs align-super ml-0.5 text-white/70">™</sup>
                 </p>
                 <p className="text-[10px] tracking-[0.2em] uppercase text-gold">
                   Powered by FORA
@@ -80,7 +80,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs">
-            &copy; {new Date().getFullYear()} Wayline Travel. All rights reserved.
+            &copy; {new Date().getFullYear()} Wayline Travel™. All rights reserved.
           </p>
           <p className="text-xs">
             Affiliated with{' '}

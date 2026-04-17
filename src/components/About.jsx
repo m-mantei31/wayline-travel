@@ -15,7 +15,7 @@ const BioContent = () => (
 
     <div className="space-y-6 text-clay text-lg font-light leading-relaxed">
       <p>
-        Travel has always been more than a hobby for me. It is a calling. As a lifelong explorer with a deep appreciation for the world's hidden treasures, I founded Wayline Travel to share that passion with travelers who seek experiences beyond the expected.
+        Travel has always been more than a hobby for me. It is a calling. As a lifelong explorer with a deep appreciation for the world's hidden treasures, I founded Wayline Travel™ to share that passion with travelers who seek experiences beyond the expected.
       </p>
       <p>
         Based in the greater Phoenix area and serving clients worldwide, I bring a refined blend of global travel insight, thoughtful attention to detail, and genuine warmth to every journey I design. As a FORA Travel advisor, I provide access to an exclusive network of luxury properties, preferred partnerships, and insider VIP perks not available to the general public.

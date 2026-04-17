@@ -37,7 +37,7 @@ export default function Navbar() {
         <a href="#" className="flex items-center gap-3">
           <img src="/wayline-logo.jpg" alt="Wayline Travel" className="h-12 w-12 rounded-lg object-cover" />
           <div className="flex flex-col">
-            <span className="font-serif text-xl tracking-wide text-espresso leading-tight">Wayline Travel</span>
+            <span className="font-serif text-xl tracking-wide text-espresso leading-tight">Wayline Travel<sup className="text-[10px] align-super ml-0.5 text-stone">™</sup></span>
             <span className="text-[9px] tracking-[0.2em] uppercase text-gold font-medium">Powered by FORA</span>
           </div>
         </a>
