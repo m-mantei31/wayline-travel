@@ -76,7 +76,9 @@ export default function FinalCTA() {
           transition={{ duration: 0.7, delay: 0.4 }}
         >
           <motion.a
-            href="mailto:info@waylinetravel.com"
+            href="https://secure.foratravel.com/intake/A6nyloBHta"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gold text-white text-sm tracking-widest uppercase px-12 py-5"
             whileHover={{ scale: 1.05, backgroundColor: '#D4B87A' }}
             whileTap={{ scale: 0.97 }}

@@ -89,7 +89,9 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4"
           >
             <motion.a
-              href="mailto:info@waylinetravel.com"
+              href="https://secure.foratravel.com/intake/A6nyloBHta"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-gold text-white text-sm tracking-widest uppercase px-10 py-4 text-center"
               whileHover={{ scale: 1.03, backgroundColor: '#D4B87A' }}
               whileTap={{ scale: 0.98 }}

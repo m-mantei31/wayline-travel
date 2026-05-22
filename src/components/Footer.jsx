@@ -36,7 +36,12 @@ export default function Footer() {
               <a href="#about" className="block text-sm hover:text-white transition-colors">
                 About
               </a>
-              <a href="mailto:info@waylinetravel.com" className="block text-sm hover:text-white transition-colors">
+              <a
+                href="https://secure.foratravel.com/intake/A6nyloBHta"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-sm hover:text-white transition-colors"
+              >
                 Get in Touch
               </a>
             </div>

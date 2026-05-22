@@ -57,7 +57,9 @@ export default function Navbar() {
             </motion.a>
           ))}
           <motion.a
-            href="mailto:info@waylinetravel.com"
+            href="https://secure.foratravel.com/intake/A6nyloBHta"
+            target="_blank"
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
@@ -101,7 +103,9 @@ export default function Navbar() {
               </motion.a>
             ))}
             <motion.a
-              href="mailto:info@waylinetravel.com"
+              href="https://secure.foratravel.com/intake/A6nyloBHta"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
