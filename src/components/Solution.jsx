@@ -35,6 +35,17 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
+        <path d="M16 4v8M16 20v8M4 16h8M20 16h8" strokeLinecap="round" />
+        <path d="M8 8l4 4M20 20l4 4M8 24l4-4M20 12l4-4" strokeLinecap="round" />
+      </svg>
+    ),
+    title: 'Your Journey. Fully Curated.',
+    description:
+      'From business class airfare and private villas to ground transportation, trusted local experts, and travel insurance — every element of your trip is thoughtfully arranged so you can simply arrive and be present.',
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
         <rect x="6" y="14" width="20" height="12" rx="2" />
         <path d="M10 14V10a6 6 0 1112 0v4" />
         <circle cx="16" cy="21" r="1.5" fill="currentColor" />
