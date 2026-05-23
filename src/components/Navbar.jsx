@@ -71,7 +71,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden flex flex-col gap-1.5 p-2"
+          className="md:hidden flex flex-col gap-1.5 p-2 relative z-[10000]"
           aria-label="Toggle menu"
         >
           <span className={`block w-6 h-px bg-espresso transition-all duration-300 ${mobileOpen ? 'rotate-45 translate-y-[3.5px]' : ''}`} />
@@ -87,7 +87,7 @@ export default function Navbar() {
             animate={{ opacity: 1, clipPath: 'circle(150% at top right)' }}
             exit={{ opacity: 0, clipPath: 'circle(0% at top right)' }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="md:hidden fixed inset-0 top-20 bg-ivory/98 backdrop-blur-lg flex flex-col items-center justify-center gap-10"
+            className="md:hidden fixed top-0 left-0 w-full h-screen z-[9999] bg-ivory flex flex-col items-center justify-center gap-10"
           >
             {links.map((link, i) => (
               <motion.a
