@@ -23,7 +23,7 @@ const steps = [
     number: '03',
     title: 'Select & Travel',
     description:
-      "I present you with a curated, detailed itinerary crafted around everything we discussed. You pick what excites you, I orchestrate the details, and then you travel. With me as your point of contact every step of the way.",
+      "I present you with a curated, detailed itinerary crafted around everything we discussed. You pick what excites you, I orchestrate the details, and then you travel. With dedicated support guiding you throughout your journey.",
     image:
       'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80',
     alt: 'Luxury resort pool overlooking the ocean',
