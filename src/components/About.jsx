@@ -48,7 +48,6 @@ const LogoMarquee = () => (
       >
         {[0, 1].map((setIndex) => (
           <div key={setIndex} className="flex items-center shrink-0">
-            <img src="/logos/four-seasons.svg" alt="Four Seasons Preferred Partner" className="h-20 mx-10 opacity-80" />
             <img src="/logos/mandarin-oriental.png" alt="Mandarin Oriental" className="h-20 mx-10 opacity-80 mix-blend-multiply" />
             <img src="/logos/rosewood.svg" alt="Rosewood Elite" className="h-12 mx-10 opacity-80" />
             <img src="/logos/abercrombie-kent.svg" alt="Abercrombie & Kent" className="h-20 mx-10 opacity-80" />
@@ -56,7 +55,7 @@ const LogoMarquee = () => (
             <img src="/logos/accor-preferred.svg" alt="Accor Preferred by HERA" className="h-16 mx-10 opacity-80" />
             <img src="/logos/omni-hotels.png" alt="Omni Hotels & Resorts" className="h-16 mx-10 opacity-80 mix-blend-multiply" />
             <img src="/logos/hilton-luxury.svg" alt="Hilton For Luxury" className="h-12 mx-10 opacity-80" />
-            <img src="/logos/marriott-starrs-luminous.png" alt="Marriott International STARS & LUMINOUS" className="h-16 mx-10 opacity-80 mix-blend-multiply" />
+            <img src="/logos/marriott.svg" alt="Marriott" className="h-10 mx-10 opacity-80" />
           </div>
         ))}
       </motion.div>
