@@ -121,7 +121,7 @@ export default function Solution() {
               key={benefit.title}
               variants={cardVariants}
               whileHover={{ y: -8, transition: { duration: 0.3 } }}
-              className="bg-ivory/60 backdrop-blur-sm p-10 lg:p-12 group cursor-default"
+              className={`bg-ivory/60 backdrop-blur-sm p-10 lg:p-12 group cursor-default ${benefit.title === 'Transparent Pricing' ? 'md:col-span-2' : ''}`}
             >
               <motion.div
                 className="text-gold mb-6"

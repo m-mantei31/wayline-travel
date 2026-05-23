@@ -24,7 +24,7 @@ const BioContent = () => (
         I believe travel is for everyone. I proudly serve the LGBTQ+ community and the allies who champion it. Every journey I design is built around who you are, not just where you want to go. Whether you're traveling as a couple celebrating love, a group of friends marking a milestone, or an ally exploring the world with intention — your journey is always designed around you.
       </p>
       <p>
-        I have a particular love for discovering small boutique hotels that offer privacy, warmth, and an intimate sense of luxury you won't find at a large resort. These are the kinds of places that turn a great trip into an unforgettable one.
+        I have a particular love for discovering small boutique hotels that offer privacy, warmth, and an intimate sense of luxury you won't find at a large resort. These are the kinds of places that turn a great trip into an unforgettable one. That said, I work across the full spectrum of luxury — from world-renowned five-star resorts and intimate boutique stays to private villas, expedition cruises, and once-in-a-lifetime travel experiences — always matched carefully to who you are and what you want from the journey.
       </p>
       <p>
         My philosophy is simple. Every journey should feel seamless, personal, and unforgettable. Whether it is a romantic escape to the Amalfi Coast, an immersive adventure through Patagonia, a solo wellness retreat in Thailand, or a family reunion in Tuscany, I curate each experience with the same level of care and intention I would bring to my own travel. Your trip is not just a booking. It is a story waiting to be written, and my greatest measure of success is knowing you loved it enough to come back and plan the next one together.
