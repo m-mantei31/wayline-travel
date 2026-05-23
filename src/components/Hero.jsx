@@ -45,7 +45,8 @@ export default function Hero() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-[#C9A84C] text-sm tracking-[0.3em] uppercase mb-6"
+            className="text-white text-sm tracking-[0.3em] uppercase mb-6"
+            style={{ textShadow: '0px 1px 4px rgba(0, 0, 0, 0.6)' }}
           >
             Curated Travel Experiences
           </motion.p>
