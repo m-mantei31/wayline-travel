@@ -3,21 +3,21 @@ import { motion } from 'framer-motion'
 const pains = [
   {
     number: '01',
-    title: 'Endless research rabbit holes',
+    title: 'The illusion of choice',
     description:
-      "You've spent hours comparing hotels, reading reviews, and still aren't sure if you're making the right choice. The options are overwhelming.",
+      'Too many options, no real curation. Anyone can book a hotel. Few can tell you which one is truly right for you.',
   },
   {
     number: '02',
-    title: 'Cookie-cutter itineraries',
+    title: 'Itineraries built for everyone',
     description:
-      'Generic travel packages that hit the tourist traps but miss the hidden gems. You want something that feels like it was made for you, because it should be.',
+      'Which means built for no one. You want a journey that reflects your life, not a template someone else already used.',
   },
   {
     number: '03',
-    title: 'The fear of missing out',
+    title: 'The cost of getting it wrong',
     description:
-      "That nagging feeling you could have gotten a better deal, a better room, a better experience. Without insider knowledge, you're always guessing.",
+      "A mismatched hotel, an unwelcoming destination, a trip that didn't deliver. At this level, that's not just disappointing. It's unacceptable.",
   },
 ]
 
