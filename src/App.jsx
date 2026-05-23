@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import PainPoints from './components/PainPoints'
 import Solution from './components/Solution'
 import Specialties from './components/Specialties'
+import WhoIWorkWith from './components/WhoIWorkWith'
+import SafetyDiscretion from './components/SafetyDiscretion'
+import WhyWayline from './components/WhyWayline'
 import Process from './components/Process'
 import Testimonials from './components/Testimonials'
 import About from './components/About'
@@ -19,6 +22,9 @@ export default function App() {
         <PainPoints />
         <Solution />
         <Specialties />
+        <WhoIWorkWith />
+        <SafetyDiscretion />
+        <WhyWayline />
         <Process />
         <Testimonials />
         <About />

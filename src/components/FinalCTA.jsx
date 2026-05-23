@@ -54,7 +54,7 @@ export default function FinalCTA() {
             transition={{ duration: 0.9, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="font-serif text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] mb-8"
           >
-            Your next chapter begins with a conversation
+            Ready to plan your next chapter?
           </motion.h2>
         </div>
 
@@ -84,7 +84,7 @@ export default function FinalCTA() {
             whileTap={{ scale: 0.97 }}
             transition={{ duration: 0.2 }}
           >
-            Get in Touch
+            Start Your Journey
           </motion.a>
         </motion.div>
 

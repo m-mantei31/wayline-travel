@@ -50,24 +50,14 @@ export default function Hero() {
             Curated Travel Experiences
           </motion.p>
 
-          <div className="overflow-hidden">
-            <motion.h1
-              initial={{ y: '100%' }}
-              animate={{ y: 0 }}
-              transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05] mb-2"
-            >
-              Travel should feel
-            </motion.h1>
-          </div>
           <div className="overflow-hidden mb-8">
             <motion.h1
               initial={{ y: '100%' }}
               animate={{ y: 0 }}
-              transition={{ duration: 1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
-              className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.05]"
+              transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05]"
             >
-              <em className="text-gold-light">effortless</em>
+              Luxury travel curated for <em className="text-gold-light">LGBTQ+ professionals</em> who expect more.
             </motion.h1>
           </div>
 
@@ -77,9 +67,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-white/80 text-lg md:text-xl leading-relaxed max-w-xl mb-10 font-light"
           >
-            Stop spending hours researching and second-guessing. Let a dedicated
-            travel advisor craft the journey you've been dreaming of, tailored
-            entirely to you and the people you love.
+            Your next chapter deserves to be extraordinary.
           </motion.p>
 
           <motion.div
@@ -97,16 +85,7 @@ export default function Hero() {
               whileTap={{ scale: 0.98 }}
               transition={{ duration: 0.2 }}
             >
-              Get in Touch
-            </motion.a>
-            <motion.a
-              href="#process"
-              className="inline-block border border-white/40 text-white text-sm tracking-widest uppercase px-10 py-4 text-center"
-              whileHover={{ scale: 1.03, backgroundColor: 'rgba(255,255,255,0.1)' }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.2 }}
-            >
-              How It Works
+              Start Your Journey
             </motion.a>
           </motion.div>
         </div>
