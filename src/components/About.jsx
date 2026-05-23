@@ -70,7 +70,7 @@ export default function About() {
   const rotateY = useTransform(x, [-100, 100], [-2, 2])
 
   return (
-    <section id="about" className="py-24 lg:py-36 bg-ivory">
+    <section id="about" className="py-24 lg:py-36 bg-ivory overflow-hidden">
       {/* ===== MOBILE LAYOUT (no animations) ===== */}
       <div className="lg:hidden max-w-7xl mx-auto px-6">
         <div className="mb-10">

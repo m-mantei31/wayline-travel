@@ -39,7 +39,7 @@ export default function WhyWayline() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-clay text-lg md:text-xl font-light leading-relaxed"
         >
-          Before founding Wayline Travel, I spent years inside corporate America at Verizon, DoorDash, State Farm, and Grainger. I understand the professional world you live in and what it means to move through it as an openly LGBTQ+ professional. That intersection — corporate precision and authentic LGBTQ+ lived experience — is exactly what Wayline Travel was built on.
+          Before founding Wayline Travel, I spent years inside corporate America at Verizon, DoorDash, State Farm, and Grainger. I understand the professional world you live in and what it means to navigate it as an openly LGBTQ+ professional. That intersection — corporate precision and authentic LGBTQ+ lived experience — is exactly what Wayline Travel was built on.
         </motion.p>
       </div>
     </section>

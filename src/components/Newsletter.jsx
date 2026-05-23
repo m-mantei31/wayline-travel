@@ -18,7 +18,7 @@ export default function Newsletter() {
   }
 
   return (
-    <section className="py-24 lg:py-32 bg-sand/40">
+    <section className="py-24 lg:py-32 bg-sand/40 overflow-hidden">
       <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
         <motion.p
           initial={{ opacity: 0, y: 10 }}
