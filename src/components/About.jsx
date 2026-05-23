@@ -55,7 +55,7 @@ const LogoMarquee = () => (
             <img src="/logos/accor-preferred.svg" alt="Accor Preferred by HERA" className="h-16 mx-10 opacity-80" />
             <img src="/logos/omni-hotels.png" alt="Omni Hotels & Resorts" className="h-16 mx-10 opacity-80 mix-blend-multiply" />
             <img src="/logos/hilton-luxury.svg" alt="Hilton For Luxury" className="h-12 mx-10 opacity-80" />
-            <img src="/logos/marriott.svg" alt="Marriott" className="h-10 mx-10 opacity-80" />
+            <img src="/logos/marriott.svg" alt="Marriott International" className="h-12 mx-10 opacity-80" />
           </div>
         ))}
       </motion.div>
