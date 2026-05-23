@@ -65,8 +65,7 @@ export default function FinalCTA() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="text-white/70 text-lg font-light leading-relaxed mb-12 max-w-xl mx-auto"
         >
-          Get in touch. Tell me about your dream trip, and
-          I'll show you what's possible.
+          Get in touch. Whether you're LGBTQ+ or an ally who champions this community, tell me about your dream trip and I'll show you what's possible.
         </motion.p>
 
         <motion.div

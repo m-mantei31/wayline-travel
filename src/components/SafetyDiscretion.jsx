@@ -48,7 +48,7 @@ export default function SafetyDiscretion() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="text-white/75 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto"
         >
-          Every itinerary is built with LGBTQ+ safety, cultural context, and discretion woven into its foundation. Because the best luxury is the freedom to be fully yourself, wherever in the world you happen to be.
+          Every itinerary is built with LGBTQ+ safety, cultural context, and discretion woven into its foundation. Whether you're part of the community or an ally traveling alongside it, the best luxury is the freedom to be fully yourself, wherever in the world you happen to be.
         </motion.p>
       </div>
     </section>
