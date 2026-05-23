@@ -56,7 +56,7 @@ export default function Specialties() {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
             className="font-serif text-3xl md:text-4xl lg:text-5xl text-espresso leading-[1.15]"
           >
-            Designed for every kind of traveler
+            Curated for those who travel with intention
           </motion.h2>
         </div>
 

@@ -39,7 +39,7 @@ export default function WhoIWorkWith() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-clay text-lg md:text-xl font-light leading-relaxed"
         >
-          Wayline Travel is for the professional who has earned their seat at the table and wants their travel to reflect that. You value safety, discretion, and cultural awareness. You might be the executive planning an anniversary trip, a friend group celebrating a milestone abroad, or a newly promoted professional ready for something unforgettable.
+          Wayline Travel is for the professional who has earned their seat at the table and wants their travel to reflect that. You're LGBTQ+ or an ally who moves in those circles. You value safety, discretion, and cultural awareness. You might be the executive planning an anniversary trip, a friend group celebrating a milestone abroad, or a newly promoted professional ready for something unforgettable.
         </motion.p>
       </div>
     </section>
