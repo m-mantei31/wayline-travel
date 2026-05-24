@@ -4,7 +4,8 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
-        <path d="M16 4l3.09 6.26L26 11.27l-5 4.87 1.18 6.88L16 19.77l-6.18 3.25L11 16.14l-5-4.87 6.91-1.01L16 4z" />
+        <circle cx="16" cy="16" r="12" />
+        <path d="M16 8l3 8-3 8-3-8 3-8z" strokeLinejoin="round" />
       </svg>
     ),
     title: 'Tailored to You',
@@ -14,8 +15,8 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
-        <circle cx="16" cy="16" r="12" />
-        <path d="M16 10v6l4 2" />
+        <path d="M9 4h14M9 28h14" strokeLinecap="round" />
+        <path d="M11 4l5 12-5 12M21 4l-5 12 5 12" strokeLinejoin="round" />
       </svg>
     ),
     title: 'Your Time Back',
@@ -25,7 +26,8 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
-        <path d="M8 28V18M16 28V10M24 28V4" strokeLinecap="round" />
+        <circle cx="11" cy="16" r="5" />
+        <path d="M16 16h12M24 16v4M28 16v3" strokeLinecap="round" />
       </svg>
     ),
     title: 'Insider Access',
@@ -35,8 +37,9 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
-        <path d="M16 4v8M16 20v8M4 16h8M20 16h8" strokeLinecap="round" />
-        <path d="M8 8l4 4M20 20l4 4M8 24l4-4M20 12l4-4" strokeLinecap="round" />
+        <rect x="5" y="11" width="22" height="16" rx="1" />
+        <path d="M12 11V7a2 2 0 012-2h4a2 2 0 012 2v4" />
+        <path d="M5 18h22" />
       </svg>
     ),
     title: 'Your Journey. Fully Curated.',
@@ -46,9 +49,9 @@ const benefits = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 32 32" stroke="currentColor" strokeWidth="1.5">
-        <rect x="6" y="14" width="20" height="12" rx="2" />
-        <path d="M10 14V10a6 6 0 1112 0v4" />
-        <circle cx="16" cy="21" r="1.5" fill="currentColor" />
+        <path d="M9 4h10l5 5v19H9z" strokeLinejoin="round" />
+        <path d="M19 4v5h5" />
+        <path d="M12 18l3 3 5-6" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
     title: 'Transparent Pricing',
