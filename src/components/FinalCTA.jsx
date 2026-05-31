@@ -85,6 +85,12 @@ export default function FinalCTA() {
           >
             Start Your Journey
           </motion.a>
+          <p className="text-white/50 text-xs mt-6">
+            By starting your journey, you acknowledge our{' '}
+            <a href="/privacy.html" className="underline hover:text-white transition-colors">
+              Privacy Policy
+            </a>.
+          </p>
         </motion.div>
 
       </div>

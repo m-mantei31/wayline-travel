@@ -50,15 +50,20 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <p className="text-white text-xs tracking-[0.2em] uppercase mb-4">
-              Get in Touch
+              Stay in Touch
             </p>
             <div className="space-y-3">
-              <a
-                href="mailto:info@waylinetravel.com"
-                className="block text-sm hover:text-white transition-colors"
-              >
-                info@waylinetravel.com
-              </a>
+              <div>
+                <a
+                  href="mailto:info@waylinetravel.com"
+                  className="block text-sm hover:text-white transition-colors"
+                >
+                  info@waylinetravel.com
+                </a>
+                <p className="text-xs text-white/40 mt-1">
+                  General inquiries — to plan a trip, use Start Your Journey.
+                </p>
+              </div>
               <div className="flex items-center gap-4 pt-2">
                 {/* Instagram */}
                 <a href="https://instagram.com/waylinetravel" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
@@ -93,10 +98,15 @@ export default function Footer() {
           <p className="text-xs">
             &copy; {new Date().getFullYear()} Wayline Travel™. All rights reserved.
           </p>
-          <p className="text-xs">
-            Affiliated with{' '}
-            <span className="text-gold">FORA Travel</span>
-          </p>
+          <div className="flex items-center gap-6 text-xs">
+            <a href="/privacy.html" className="hover:text-white transition-colors">
+              Privacy
+            </a>
+            <p>
+              Affiliated with{' '}
+              <span className="text-gold">FORA Travel</span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
