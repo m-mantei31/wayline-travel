@@ -56,9 +56,10 @@ export default function Hero() {
               initial={{ y: '100%' }}
               animate={{ y: 0 }}
               transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05]"
+              className="font-serif text-4xl md:text-6xl lg:text-7xl text-white leading-[1.05]"
+              style={{ textShadow: '0px 2px 16px rgba(0, 0, 0, 0.45)' }}
             >
-              Luxury travel for <em className="text-gold-light">LGBT<span className="not-italic">Q</span>+ professionals</em> and allies who expect more.
+              Luxury travel curated for <em className="text-gold-light">LGBT<span className="not-italic">Q</span>+ professionals</em> and allies who expect more.
             </motion.h1>
           </div>
 
