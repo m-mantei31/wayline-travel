@@ -7,7 +7,7 @@ import WhoIWorkWith from './components/WhoIWorkWith'
 import SafetyDiscretion from './components/SafetyDiscretion'
 import WhyWayline from './components/WhyWayline'
 import Process from './components/Process'
-import Testimonials from './components/Testimonials'
+// import Testimonials from './components/Testimonials' // re-enable once real client testimonials are available
 import About from './components/About'
 import Newsletter from './components/Newsletter'
 import FinalCTA from './components/FinalCTA'
@@ -26,7 +26,7 @@ export default function App() {
         <SafetyDiscretion />
         <WhyWayline />
         <Process />
-        <Testimonials />
+        {/* <Testimonials /> hidden until real client testimonials are available */}
         <About />
         <Newsletter />
         <FinalCTA />
