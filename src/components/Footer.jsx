@@ -40,6 +40,7 @@ export default function Footer() {
                 href="https://secure.foratravel.com/intake/A6nyloBHta"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => window.plausible?.('Start Journey Click')}
                 className="block text-sm hover:text-white transition-colors"
               >
                 Get in Touch

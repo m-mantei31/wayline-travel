@@ -60,6 +60,7 @@ export default function Navbar() {
             href="https://secure.foratravel.com/intake/A6nyloBHta"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => window.plausible?.('Start Journey Click')}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
@@ -106,7 +107,7 @@ export default function Navbar() {
               href="https://secure.foratravel.com/intake/A6nyloBHta"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => setMobileOpen(false)}
+              onClick={() => { setMobileOpen(false); window.plausible?.('Start Journey Click') }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}

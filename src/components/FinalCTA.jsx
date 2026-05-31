@@ -78,6 +78,7 @@ export default function FinalCTA() {
             href="https://secure.foratravel.com/intake/A6nyloBHta"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => window.plausible?.('Start Journey Click')}
             className="inline-block bg-gold text-white text-sm tracking-widest uppercase px-12 py-5"
             whileHover={{ scale: 1.05, backgroundColor: '#D4B87A' }}
             whileTap={{ scale: 0.97 }}
