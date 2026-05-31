@@ -58,7 +58,7 @@ export default function Hero() {
               transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
               className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05]"
             >
-              Luxury travel curated for <em className="text-gold-light">LGBT<span className="not-italic">Q</span>+ professionals</em> who expect more.
+              Luxury travel for <em className="text-gold-light">LGBT<span className="not-italic">Q</span>+ professionals</em> and allies who expect more.
             </motion.h1>
           </div>
 
