@@ -21,7 +21,7 @@ const BioContent = () => (
         Based in the greater Phoenix area and serving clients worldwide, I bring a refined blend of global travel insight, thoughtful attention to detail, and genuine warmth to every journey I design. As a FORA Travel advisor, I provide access to an exclusive network of luxury properties, preferred partnerships, and insider VIP perks not available to the general public.
       </p>
       <p>
-        I believe travel is for everyone. I proudly serve the LGBTQ+ community and the allies who champion it. Every journey I design is built around who you are, not just where you want to go. Whether you're traveling as a couple celebrating love, a group of friends marking a milestone, or an ally exploring the world with intention — your journey is always designed around you.
+        I believe travel is for everyone. I proudly serve the LGBTQ+ community and the allies who trust me with their travel. Every journey I design is built around who you are, not just where you want to go. Whether you're traveling as a couple celebrating love, a group of friends marking a milestone, or an ally exploring the world with intention — your journey is always designed around you.
       </p>
       <p>
         I have a particular love for discovering small boutique hotels that offer privacy, warmth, and an intimate sense of luxury you won't find at a large resort. These are the kinds of places that turn a great trip into an unforgettable one. That said, I work across the full spectrum of luxury — from world-renowned five-star resorts and intimate boutique stays to private villas, expedition cruises, and once-in-a-lifetime travel experiences — always matched carefully to who you are and what you want from the journey.
